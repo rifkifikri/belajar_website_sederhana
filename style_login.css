@@ -1,0 +1,13 @@
+.container{
+    color: rgb(165, 129, 85);
+    outline: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:absolute;
+}
+body{
+    height: 100vh;
+    background-image: "hhttps://www.freepik.com/free-vector/developer-activity-concept-illustration_9319773.htm";
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

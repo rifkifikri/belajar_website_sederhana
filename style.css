@@ -1,0 +1,109 @@
+* {
+    text-decoration: none;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+body{
+    margin: 0pt;
+    padding: 0pt;
+    font-family:"Open Sans", sans-serif;
+}
+
+.wrapper{  /* untuk mengatur dari class wrapper */
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{ /* untuk mengatur dari class logo dengan ukuran dan posisi tertentu */
+    font-size: 50pt;
+    font-weight: bold;
+    color: rgb(71, 71, 177);
+    float: left;  /* untuk mengatur letak posisi dari suatu kelas tersebut */
+    font-family: Courier;
+}
+
+.menu{
+    float: right;
+}
+
+nav{ /* untuk memebuat navigasi dalam suatu element yaitu tag nav pada html*/
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px; /* untuk membuat kotak atau garis line dengan ukuran tertentu */
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0pt;
+    background: #FFFFFF;
+}
+
+nav ul{ /* untuk memebuat navigasi dalam suatu element yaitu tag nav ul yang merujuk pada file indext.html*/
+    list-style-type:none;
+    margin: 0pt;
+    padding: 0pt;
+    overflow:hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px; /* untuk membuat letak dari menu yang telah di buat di elemen ul li a.
+                                    0px ukuran dari atas, 16px ukuran dari kanan, 0px ukuran dari bawah, 16px ukuran dari kiri*/
+    text-decoration:none;
+}
+
+nav ul li a:hover{ /* hover disini untuk menjadikan menu berubah warna*/
+    text-decoration:underline;
+    color:  rgb(71, 71, 177);
+}
+
+section{
+    margin:auto;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(71, 71, 177);
+}
+
+h2{
+ font-family:'comic sans ms';
+ font-weight: 800;
+ font-size: 45px;
+ margin-bottom: 20px;
+ color: rgb(71, 71, 177);
+ width: 100%;
+ line-height: 50px;
+ /* margin-top: 50px; */
+}
+
+a.tbl-biru{
+    background:rgb(118, 118, 184);
+    border-radius: 50px;
+    color:white;
+}
+.tbl_pink {
+    background: #8d8dd1;
+    border-radius:50px;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(244, 245, 250);
+
+}
